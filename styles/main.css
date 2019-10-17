@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    border-box: box-sizing;
 }
 
 .container {
@@ -7,12 +8,11 @@
 }
 
 .header {
-    background-color: lightpink;
+    #background-color: red;
 }
 
 .content {
-    /*background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_tio_X4HXvgO9t.png);*/
-    background-color: #fff;
+    background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_tio_X4HXvgO9t.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,4 +42,17 @@ section img {
     height: 60px;
 }
 
-.bichis {}
+.bichis {
+    text-align: center;
+    flex-grow: 3;
+}
+
+.noticias {
+    text-align: center;
+    flex-grow: 8;
+    flex-direction: column;
+}
+
+.videos {
+    flex-grow: 4;
+}
