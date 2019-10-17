@@ -46,16 +46,21 @@ section img {
     flex-grow: 4;
 }
 
-.noticias {
-    text-align: center;
-    flex-grow: 4;
-    flex-direction: column;
-}
-
 .videos {
     flex-grow: 4;
 }
 
 .bordear {
     border: 1px solid red;
+}
+
+.noticias {
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.noticia {
+    border: 1px solid grey;
 }
