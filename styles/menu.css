@@ -1,0 +1,68 @@
+.title {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.title img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user {
+    align-self: center;
+    text-align: center;
+}
+
+.nav-menu {
+    flex-grow: 3;
+}
+
+.user-profile-btn {
+    background-color: black;
+}
+
+.user-profile-icon {
+    font-size: 80px !important;
+    color: grey;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://ik.imagekit.io/jgjqr7tdm/tftb_Wj3n25Nt_.jpg);
+    background-size: cover;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-family: Rubik, Lato, lucida grande;
+    text-decoration: none;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.nav-item-icon {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.nav-item-icon i {
+    font-size: 40px !important;
+}
+
+.nav-item-text {
+    text-align: center;
+}

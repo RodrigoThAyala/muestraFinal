@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+}
+
+.header {
+    background-color: lightpink;
+}
+
+.content {
+    /*background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_tio_X4HXvgO9t.png);*/
+    background-color: #fff;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: fixed;
+    opacity: 0.7;
+    display: flex;
+}
+
+.footer {
+    background-color: lightblue;
+}
+
+.copyright {
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+section img {
+    border-radius: 80px;
+    width: 60px;
+    height: 60px;
+}
+
+.bichis {}
