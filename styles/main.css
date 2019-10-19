@@ -1,6 +1,11 @@
 * {
     margin: 0;
-    border-box: box-sizing;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(fuentes/fuentelol.otf);
+    font-family: Friz Quadrata Std;
 }
 
 .container {
@@ -12,17 +17,16 @@
 }
 
 .content {
-    background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_tio_X4HXvgO9t.png);
+    background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_bxtJtQ7oO.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: fixed;
     opacity: 0.7;
     display: flex;
     flex-direction: column;
 }
 
-.seccion{
+.seccion {
     padding: 20px;
 }
 
@@ -47,7 +51,7 @@
 }
 
 .videos {
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .bordear {
@@ -57,45 +61,64 @@
 .noticias {
     flex-direction: row;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-grow: 4;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.noticia-titulo {
+    color: white;
+    max-width: 300px;
+}
+
+.noticia-descripcion {
+    color: white;
+    max-width: 300px;
+    margin: 5px auto;
 }
 
 .noticia-card {
     border: 1px solid grey;
+    margin: 10px;
 }
 
-.noticia-titulo{
-color: white;
-}
-
-.noticia-descripcion{
-    color: white;
-}
 
 /* BICHIS */
 
-.bichi-card{
-display:flex;
-flex-direction: row;
-align-items: center;
+.bichi-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-
-.bichi-card-img{
-flex-grow: 0.5;
+.bichi-card-img {
+    flex-grow: 0.5;
 }
 
-.bichi-card-title{
-flex-grow:4;
-color: white;
-font-size: 20px;    
-text-align: left;
+.bichi-card-title {
+    flex-grow: 4;
+    color: white;
+    font-size: 20px;
+    text-align: left;
 }
 
 .bichi-card-img img {
     border-radius: 80px;
     width: 60px;
     height: 60px;
+}
+
+
+/*NOTICIAS*/
+
+div img {
+    width: 300px;
+    height: 150px;
+}
+
+h1 {
+    font-family: Friz Quadrata Std;
+}
+
+a {
+    font-family: Friz Quadrata Std;
 }

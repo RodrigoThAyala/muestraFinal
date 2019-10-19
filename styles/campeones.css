@@ -1,0 +1,19 @@
+.lista {
+    margin: 10px auto;
+    height: 100%;
+    background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo-lol_lUs_bOvHL.jpg);
+    flex-wrap: nowrap;
+    width: 60%;
+}
+
+.iconos-champs {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.iconos-champs img {
+    width: 50px;
+    height: 50px;
+}
