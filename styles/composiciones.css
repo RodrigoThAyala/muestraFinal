@@ -1,0 +1,9 @@
+.fondo-champ {
+    background-image: url(https://ik.imagekit.io/jgjqr7tdm/jhinfondo_YNgQRxR8k.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
