@@ -18,8 +18,10 @@
     height: 50px;
 }
 
-.desc-champs {
-    width: 80%;
+.champ-card{
+    border: 1px solid yellow;
+    background-color: black;
+    opacity: 0.7;
 }
 
 .fondo-champ {
