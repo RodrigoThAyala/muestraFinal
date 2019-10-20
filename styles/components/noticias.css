@@ -1,0 +1,16 @@
+/*NOTICIAS*/
+.noticia-card {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+
+.noticia-titulo {
+    color: white;
+}
+
+.noticia-descripcion {
+    color: white;
+    max-width: 300px;
+}
+

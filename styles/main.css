@@ -17,7 +17,7 @@
 }
 
 .content {
-    background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_bxtJtQ7oO.jpg);
+    /*background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_bxtJtQ7oO.jpg);*/
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,11 @@
     flex-direction: column;
     background-attachment: fixed;
     border: 10px solid black;
+}
+
+.main-title{
+    text-align: center;
+    color: darkgoldenrod;
 }
 
 .seccion {
@@ -42,15 +47,7 @@
     text-align: center;
 }
 
-.img-responsive {
-    width: 100%;
-    height: auto;
-}
 
-.bichis {
-    text-align: center;
-    flex-grow: 2;
-}
 
 .videos {
     flex-grow: 3;
@@ -60,62 +57,8 @@
     border: 1px solid red;
 }
 
-.noticias {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.noticia-titulo {
-    color: white;
-    max-width: 300px;
-}
-
-.noticia-descripcion {
-    color: white;
-    max-width: 300px;
-    margin: 5px auto;
-}
-
-.noticia-card {
-    border: 1px solid grey;
-    margin: 10px;
-}
 
 
-/* BICHIS */
-
-.bichi-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.bichi-card-img {
-    flex-grow: 0.5;
-}
-
-.bichi-card-title {
-    flex-grow: 4;
-    color: white;
-    font-size: 20px;
-    text-align: left;
-}
-
-.bichi-card-img img {
-    border-radius: 80px;
-    width: 60px;
-    height: 60px;
-}
-
-
-/*NOTICIAS*/
-
-div img {
-    width: 300px;
-    height: 150px;
-}
 
 h1 {
     font-family: Friz Quadrata Std;
