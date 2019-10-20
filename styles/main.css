@@ -12,12 +12,8 @@
     background-color: black;
 }
 
-.header {
-    #background-color: red;
-}
-
 .content {
-    /*background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_bxtJtQ7oO.jpg);*/
+    background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo_bxtJtQ7oO.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,11 +22,15 @@
     flex-direction: column;
     background-attachment: fixed;
     border: 10px solid black;
+    padding: 10px;
 }
 
-.main-title{
+.main-title {
     text-align: center;
     color: darkgoldenrod;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
 }
 
 .seccion {
@@ -47,8 +47,6 @@
     text-align: center;
 }
 
-
-
 .videos {
     flex-grow: 3;
 }
@@ -56,9 +54,6 @@
 .bordear {
     border: 1px solid red;
 }
-
-
-
 
 h1 {
     font-family: Friz Quadrata Std;
