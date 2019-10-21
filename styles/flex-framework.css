@@ -55,7 +55,7 @@
     justify-content: space-around;
 }
 
-.row .justify-center {
+.row.justify-center {
     justify-content: center;
 }
 

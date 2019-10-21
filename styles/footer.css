@@ -1,0 +1,115 @@
+.riotbar-footer-content.default-background {
+    background-color: #0a0a0c;
+    border-top: 1px solid #937341;
+}
+ .riotbar-footer-content {
+     padding: 1px 5px;
+ }
+ .riotbar-footer * {
+     box-sizing: border-box;
+ }
+
+.riotbar-footer-content > div {
+    margin: 20px auto;
+}
+ .riotbar-footer-riot-logo {
+     user-select: none;
+     box-sizing: border-box;
+ }
+
+.riotbar-footer-riot-logo a {
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    background: transparent url(../imagenes/white-s.png) no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 55px;
+    opacity: 0.9;
+    transition: opacity 0.2s linear;
+}
+
+
+ .riotbar-copyright {
+     font-size: 11px;
+     line-height: 1.316;
+     margin: 0 auto;
+     max-width: 500px;
+     text-align: center;
+     color: rgba(209, 197, 169, 0.4);
+     transition: color 0.2s linear;
+     font-family: "Helvetica Neue,sans-serif";
+     word-break: keep-all;
+ }
+
+
+ .riotbar-legal-links {
+     font-size: 11px;
+     color: rgba(209, 197, 169, 0.402);
+     text-align: center;
+     font-family: "Helvetica Neue,sans-serif";
+ }
+ .riotbar-legal-links {
+     user-select: none;
+     box-sizing: border-box;
+ }
+
+.riotbar-legal-links ul {
+    flex-wrap: wrap;
+}
+ .riotbar-legal-links ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+.riotbar-legal-links ul li a:visited {
+    color: rgba(209, 197, 169, 0.402);
+}
+ .riotbar-legal-links ul li a {
+     display: block;
+     margin: 0 5px;
+     text-decoration: none;
+     color: rgba(209, 197, 169, 0.402);
+     transition: all 0.2s linear;
+ }
+
+a, a:focus {
+    font-family: "Beaufort for LOL";
+    font-weight: 400;
+    font-style: normal;
+    color: #09abae;
+}
+
+.riotbar-game-ratings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.riotbar-game-rating-logo {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+    margin: 5px 0;
+    max-width: 100%;
+}
+
+.riotbar-game-rating-text {
+    display: inline-block;
+    text-align: left;
+    color: #efefef;
+    margin-left: 6px;
+    line-height: 19px;
+    font-size: 15px;
+    font-family: "Gill Sans W04", GillSans, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
