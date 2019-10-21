@@ -3,22 +3,10 @@
     height: 100%;
     background-image: url(https://ik.imagekit.io/jgjqr7tdm/fondo-lol_lUs_bOvHL.jpg);
     flex-wrap: nowrap;
-    width: 60%;
+    width: 80%;
 }
 
-.iconos-champs {
-    display: flex;
-    width: 100%;
-    margin-top: 10px;
-    justify-content: space-around;
-}
-
-.iconos-champs img {
-    width: 50px;
-    height: 50px;
-}
-
-.champ-card{
+.champ-card {
     border: 1px solid yellow;
     background-color: black;
     opacity: 0.7;
@@ -32,4 +20,16 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
+}
+
+.icono img {
+    width: 100%;
+    height: auto;
+}
+
+.lista h2 {
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: darkgoldenrod;
 }
