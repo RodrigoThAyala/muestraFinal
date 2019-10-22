@@ -7,3 +7,15 @@
     flex-direction: column;
     background-attachment: fixed;
 }
+
+.items-lista {
+    margin: 10px auto;
+    height: 100%;
+    background-image: url(../imagenes/objetos-tft.jpg);
+    flex-wrap: nowrap;
+    width: 60%;
+}
+
+.row img {
+    text-align: center;
+}

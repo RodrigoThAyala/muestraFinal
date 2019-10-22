@@ -9,7 +9,7 @@
 .champ-card {
     border: 1px solid yellow;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .fondo-champ {
@@ -27,9 +27,14 @@
     height: auto;
 }
 
-.lista h2 {
+h2 {
     color: white;
     text-align: center;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: darkgoldenrod;
+    font-size: 50px;
+}
+
+a h2 {
+    text-decoration: none;
 }

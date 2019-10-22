@@ -1,0 +1,73 @@
+.title {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.title img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user {
+    align-self: center;
+    text-align: center;
+}
+
+.nav-menu-compo {
+    flex-grow: 3;
+}
+
+.user-profile-btn {
+    background-color: black;
+}
+
+.user-profile-icon {
+    font-size: 80px !important;
+    color: grey;
+}
+
+.menu-compo {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../../imagenes/fondo-lol.jpg);
+    background-size: cover;
+}
+
+.menu-compo a {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-family: Rubik, Lato, lucida grande;
+    text-decoration: none;
+}
+
+.menu-compo a:hover {
+    background-color: grey;
+    color: white;
+    opacity: 1;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.nav-item-icon {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.nav-item-icon i {
+    font-size: 40px !important;
+}
+
+.nav-item-text {
+    text-align: center;
+}
